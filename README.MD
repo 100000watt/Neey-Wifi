@@ -29,5 +29,4 @@ Un monitor per BMS Neey che legge i dati via UART e li pubblica su MQTT per inte
 - BMS Neey (modificato con interfaccia 485)
 
 ---
-
-E' possibile richiedere i circuiti stampati da assemblare
+Il progetto è in fase di sviluppo, in futuro sarà possibile richiedere i circuiti stampati da assemblare o già pronti al uso
