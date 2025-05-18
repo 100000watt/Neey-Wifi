@@ -1,0 +1,33 @@
+# 🔋 Neey Battery Balancer Monitor
+
+Un monitor per BMS Neey che legge i dati via UART e li pubblica su MQTT per integrazione automatica con **Home Assistant**. Il dispositivo è configurabile tramite file `config.txt` su scheda SD.
+
+---
+
+## 🚀 Funzionalità
+
+- Lettura dati da BMS Neey (via 485)
+- Pubblicazione su MQTT con supporto per:
+  - Tensione totale e media
+  - Delta massimo tra celle
+  - Celle con valori estremi
+  - Stato del sistema
+  - Corrente di bilanciamento
+  - Tensioni di ogni cella (fino a 24)
+- Integrazione automatica con Home Assistant tramite **MQTT Discovery**
+- Configurazione completa da SD card (`config.txt`)
+- LED di errore lampeggiante in caso di file mancante
+- Riconnessione automatica a WiFi e MQTT
+
+---
+
+## 🧰 Requisiti hardware
+
+- ESP32 Wroom32
+- Una card micro-SD
+- Connessione WiFi
+- BMS Neey (modificato con interfaccia 485)
+
+---
+
+E' possibile richiedere i circuiti stampati da assemblare
