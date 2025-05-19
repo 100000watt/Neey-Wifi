@@ -1,6 +1,6 @@
 # 🔋 Neey Battery Balancer Monitor
 
-Un monitor per BMS Neey che legge i dati via UART e li pubblica su MQTT per integrazione automatica con **Home Assistant**. Il dispositivo è configurabile tramite file `config.txt` su scheda SD.
+Gateway per bilanciatori Neey che legge i dati via UART e li pubblica su MQTT con integrazione automatica **Home Assistant**. Il dispositivo è configurabile tramite file `config.txt` su scheda SD.
 
 ---
 
