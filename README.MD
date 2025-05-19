@@ -6,7 +6,7 @@ Gateway per bilanciatori Neey che legge i dati via UART e li pubblica su MQTT co
 
 ## 🚀 Funzionalità
 
-- Lettura dati da BMS Neey (via 485)
+- Lettura dati da Balancer Neey (via 485)
 - Pubblicazione su MQTT con supporto per:
   - Tensione totale e media
   - Delta massimo tra celle
@@ -16,7 +16,6 @@ Gateway per bilanciatori Neey che legge i dati via UART e li pubblica su MQTT co
   - Tensioni di ogni cella (fino a 24)
 - Integrazione automatica con Home Assistant tramite **MQTT Discovery**
 - Configurazione completa da SD card (`config.txt`)
-- LED di errore lampeggiante in caso di file mancante
 - Riconnessione automatica a WiFi e MQTT
 
 ---
