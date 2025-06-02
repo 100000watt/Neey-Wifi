@@ -1,6 +1,6 @@
 # 🔋 Neey Battery Balancer Monitor
 
-Gateway per bilanciatori Neey che legge i dati via UART e li pubblica su MQTT con integrazione automatica **Home Assistant**. Il dispositivo è configurabile tramite file `config.txt` su scheda SD.
+Gateway per bilanciatori Neey che legge i dati via UART e li pubblica su MQTT con integrazione automatica **Home Assistant**. Il dispositivo è configurabile tramite file `config.txt` su scheda SD oppure da seriale.
 
 ---
 
@@ -10,12 +10,13 @@ Gateway per bilanciatori Neey che legge i dati via UART e li pubblica su MQTT co
 - Pubblicazione su MQTT con supporto per:
   - Tensione totale e media
   - Delta massimo tra celle
-  - Celle con valori estremi
+  - Celle con valore min e max
   - Stato del sistema
   - Corrente di bilanciamento
   - Tensioni di ogni cella (fino a 24)
 - Integrazione automatica con Home Assistant tramite **MQTT Discovery**
 - Configurazione completa da SD card (`config.txt`)
+- Possibilità di configurazione tramite terminal tramite la porta USB del modulo ESP
 - Riconnessione automatica a WiFi e MQTT
 
 ---
@@ -28,5 +29,5 @@ Gateway per bilanciatori Neey che legge i dati via UART e li pubblica su MQTT co
 - BMS Neey (modificato con interfaccia 485)
 
 ---
-Il progetto è in fase di sviluppo, in futuro sarà possibile richiedere i circuiti stampati da assemblare o già pronti al uso
+Per chi volesse un lavoro molto pulito sono disponibili i circuiti stampati del progetto
 Per informazioni o richieste: https://t.me/+ZttQPkNAbGRiYmM8
