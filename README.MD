@@ -30,4 +30,4 @@ Gateway per bilanciatori Neey che legge i dati via UART e li pubblica su MQTT co
 
 ---
 Per chi volesse un lavoro molto pulito sono disponibili i circuiti stampati del progetto
-Per informazioni o richieste: https://t.me/+ZttQPkNAbGRiYmM8
+--- Per informazioni o richieste: https://t.me/+ZttQPkNAbGRiYmM8 ---
